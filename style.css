@@ -591,6 +591,7 @@ footer {
     right: 0;
     flex-direction: column;
     gap: 0;
+    display: none;
   }
 
   .nav__links li {
@@ -613,5 +614,10 @@ footer {
     font-size: 2rem;
     background: transparent;
     cursor: pointer;
+    color: var(--color-white);
+  }
+
+  #nav__toggle-close{
+    display: none;
   }
 }
